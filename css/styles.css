@@ -522,7 +522,23 @@ footer ul li{
         height: auto;
     }
 
-    
+    .projects-box {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+
+    .project-card {
+        padding: 3rem 1.5rem;
+    }
+
+    .project-card h3 {
+        font-size: 2.5rem;
+    }
+
+    .project-card p {
+        font-size: 1.4rem;
+    }
+
     .contact form{
         flex-direction: column;
     }
