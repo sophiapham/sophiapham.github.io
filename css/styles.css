@@ -472,6 +472,14 @@ footer ul li{
     .home-img img {
         width: 56vw;
     }
+
+    .about {
+        flex-direction: column;
+        padding: 5rem 2rem;
+        gap: 3rem;
+        text-align: center;
+    }
+
     .about h2{
         text-align: center;
         margin: 2rem 0;
@@ -479,6 +487,42 @@ footer ul li{
     .about img{
         width: 52vw;
     }
+
+    .about-content {
+        text-align: center;
+    }
+    
+    .about-content h2 {
+        font-size: 4rem;
+    }
+
+    .about-content p {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        padding: 0 2rem;
+    }
+
+    .skill-info h4 {
+        font-size: 1.8rem;
+    }
+
+    .skill-info ul li {
+        font-size: 1.4rem;
+    }
+
+    .skill-info p {
+        font-size: 1.2rem;
+    }
+
+    .skill-box {
+        height: auto;
+    }
+
+    
     .contact form{
         flex-direction: column;
     }
